@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    color: #f2f2f2;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 2000px;
+    background-color: #080208;
+    min-width: 1300px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.page-header {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #28212A;
+    height: 50px;
+    min-width: 690px;
+    box-shadow: 0 0 5px black;
+}
+
+.container {
+    padding: 0 16px;
+    margin-top: 15px;
+}
+
+.page-header a,
+.page-footer a {
+  margin-right: 64px;
+  padding: 5px;
+  background-position: left;
+}
+
+
+.icon-phone {
+    vertical-align: -0.7mm;
+}
+
+.page-header a:hover {
+    transition: 400ms;
+    background-color: #1F58D0;
+    border-radius: 40px;
+}
+
+.page-header a:not(:hover) {
+    transition: 200ms;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 100px;
+    line-height: 0.5em;
+    font-size: 40px;
+    margin-top: 200px;
+    color: white;
+}
+
+h1 {
+    white-space: nowrap;
+}
+
+.heading-description {
+    white-space: nowrap
+}
+
+.buttons {
+    text-align: center;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.link1 {
+    padding: 3px;
+    border: 5px solid;
+    border-radius: 15px;
+}
+
+.buttons a:hover{
+    transition: 200ms;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #1F58D0;
+}
+
+.buttons a:not(:hover) {
+    transition: 200ms;
+}
+
+.container-about-me {
+    font-size: 40px;
+    margin-left: 120px;
+    margin-top: 800px;
+}
+
+
+.about-me {
+    display: inline-block;
+    vertical-align: 45px;
+    background-color: #1F58D0;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 30px #1F58D0;
+}
+
+.about-me-description {
+    border-left: 5px solid #28212A;
+    display: inline-block;
+    padding-left: 5px;
+    margin: 0 0 5px 5px;
+}
+
+.front-end {
+    display: inline-block;
+}
+
+.about-me-link {
+    margin-left: 40px;
+    margin-top: 1140px;
+    color: #080208;
+}
